@@ -37,7 +37,7 @@ end
 * 여기까지 하면 기본적으로 api를 제공할 수 있는 환경이 맞춰지고 todo api를 제공하기 위해 아래와 같이 합니다.
 ```
 rails-api generate scaffold Item title:string done:boolean
-
+```
+```
 rake db:migrate
 ```
-
